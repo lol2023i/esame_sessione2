@@ -1,0 +1,44 @@
+[
+    {
+      "servizi": [
+        {
+          "titolo": "Sviluppo Web Full Stack",
+          "immagine": "/media/fotoServizioSviluppoWebFullStack.jpeg",
+          "descrizione": "Creazione di siti web completi, dalla progettazione alla realizzazione; Implementazione di soluzioni interattive e responsive per un'esperienza utente ottimale."
+        },
+        {
+          "titolo": "Web Design Creativo",
+          "immagine": "/media/fotoSerivzioWebDesignCreativo.jpeg",
+          "descrizione": "Design moderno e attraente per catturare l'attenzione; Ottimizzazione dell'usabilità e della navigazione."
+        },
+        {
+          "titolo": "E-commerce",
+          "immagine": "/media/fotoServizioEcommerce.jpeg",
+          "descrizione": "Sviluppo di piattaforme di e-commerce sicure e user-friendly; Integrazione di sistemi di pagamento sicuri."
+        },
+        {
+          "titolo": "Ottimizzazione per i Motori di Ricerca",
+          "immagine": "/media/fotoServizioOttimizzazione.jpeg",
+          "descrizione": "Implementazione di pratiche SEO per migliorare la visibilità online; Ottimizzazione dei contenuti per risultati di ricerca efficaci."
+        },
+        {
+          "titolo": "Manutenzione e Aggiornamenti",
+          "immagine": "/media/fotoServizioManutenzioni.jpeg",
+          "descrizione": "Servizi regolari di manutenzione per garantire il funzionamento continuo; Aggiornamenti software e miglioramenti periodici."
+        }
+      ],
+      "contatti": {
+        "email": "esempio@esempio.com",
+        "telefono": "3333333333"
+      },
+      "link_utili": [
+        { "testo": "Homepage", "url": "homepage.php" },
+        { "testo": "Chi sono", "url": "paginaChiSono.php" },
+        { "testo": "Servizi offerti", "url": "paginaServiziOfferti.php" },
+        { "testo": "Progetti realizzati", "url": "paginaElencoLavori.php" },
+        { "testo": "Progetto di maggior successo", "url": "paginaDedicataLavoro.php" },
+        { "testo": "Mandami una richiesta", "url": "paginaContatti.php" }
+      ]
+    }
+  ]
+  

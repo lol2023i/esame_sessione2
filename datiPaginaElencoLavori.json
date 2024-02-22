@@ -1,0 +1,50 @@
+[
+    {
+      
+      "progetti": [
+        {
+          "nome": "Progetto 1",
+          "immagine": "/media/fotoProgetto1.jpeg"
+        },
+        {
+          "nome": "Progetto 2",
+          "immagine": "/media/fotoProgetto2.jpeg"
+        },
+        {
+          "nome": "Progetto 3",
+          "immagine": "/media/fotoProgetto3.jpeg"
+        },
+        {
+          "nome": "Progetto 4",
+          "immagine": "/media/fotoElencoProgetto4.jpeg"
+        }
+      ],
+      "fasi_creazione": {
+        "titolo": "Fasi più importanti per la creazione",
+        "fasi": [
+          "Fase 1: Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "Fase 2: Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "Fase 3: Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        ]
+      },
+      "call_to_action": "Scopri di più:",
+      "link_cta": {
+        "testo": "Analisi dettagliata di uno dei miei progetti più ambiziosi",
+        "url": "paginaDedicataLavoro.php"
+      },
+      
+      "contatti": {
+        "email": "esempio@esempio.com",
+        "telefono": "3333333333"
+      },
+      "link_utili": [
+        { "testo": "Homepage", "url": "homepage.php" },
+        { "testo": "Chi sono", "url": "paginaChiSono.php" },
+        { "testo": "Servizi offerti", "url": "paginaServiziOfferti.php" },
+        { "testo": "Progetti realizzati", "url": "paginaElencoLavori.php" },
+        { "testo": "Progetto di maggior successo", "url": "paginaDedicataLavoro.php" },
+        { "testo": "Mandami una richiesta", "url": "paginaContatti.php" }
+      ]
+    }
+  ]
+  

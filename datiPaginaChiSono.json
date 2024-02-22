@@ -1,0 +1,26 @@
+[
+    {
+      "esperienze": {
+        "immagini": [
+          { "src": "/media/fotoEsperienza1.jpeg", "alt": "foto esperienza 1" },
+          { "src": "/media/fotoEsperienza2.jpeg", "alt": "foto esperienza 2" },
+          { "src": "/media/fotoEsperienza3.jpeg", "alt": "foto esperienza 3" }
+        ]
+        
+      },
+      
+      "contatti": {
+        "email": "esempio@esempio.com",
+        "telefono": "3333333333"
+      },
+      "link_utili": [
+        { "testo": "Homepage", "url": "homepage.php" },
+        { "testo": "Chi sono", "url": "paginaChiSono.php" },
+        { "testo": "Servizi offerti", "url": "paginaServiziOfferti.php" },
+        { "testo": "Progetti realizzati", "url": "paginaElencoLavori.php" },
+        { "testo": "Progetto di maggior successo", "url": "paginaDedicataLavoro.php" },
+        { "testo": "Mandami una richiesta", "url": "paginaContatti.php" }
+      ]
+    }
+  ]
+  

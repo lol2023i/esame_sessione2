@@ -1,0 +1,291 @@
+// import delle variabili ------------------
+
+@import 'variabili'; 
+
+// Globale----------------------------------
+body {
+    color: $coloreTesto;
+    background-color: $coloreSfondoPagine;
+    font-family: $fontFamilyGlobale;
+    font-size: $fontDimensioneTesto;
+}
+
+// media query per schermi piccoli ----------
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: small;
+
+    #video-container {
+      width: 100%;
+      height: 100%; 
+      margin-top: 45px;
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; 
+    }
+  }
+}
+
+// menu navigazione --------------------------
+.stileMenu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  $color: $coloreSfondoMenu;
+  $alpha: 0.5;
+  background-color: rgba($color, $alpha);
+  color: #ffffff;
+  
+  ul {
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px;
+    overflow: hidden;
+
+    li {
+      float: left;
+    }
+  }
+
+  a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 16px;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+      background-color: $coloreHover;
+    }
+  }
+}
+
+// video introduttivo home ------------------------
+#video-container {
+  width: 100%;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+// Centratura ---------------------------
+#centraContenuto {
+  text-align: center;
+}
+
+// stile titoli 2 -------------------------------
+.sottoTitolo {
+  font-size: $fontDimensioneSottotitolo;
+  font-weight:bolder;
+  text-transform:uppercase;
+  line-height: 1.2;
+  color: $coloreSfondoMenu;
+  text-decoration: overline;
+}
+
+// stile titoli 3
+.titoli3 {
+  font-size: $fontDimensioneSottotitolo2;
+  font-weight:bolder;
+  text-transform:uppercase;
+  line-height: 1.2;
+  color: $coloreSfondoMenu;
+
+}
+
+
+// stile link importante ------------------------------
+.linkImportante:link, .linkImportante:visited {
+  color: $coloreSfondoMenu; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+  padding: 5px;
+  border: 2px solid $coloreSfondoMenu; 
+  border-radius: 5px;
+}
+
+.linkImportante:hover, .linkImportante:active {
+  color: $color-hover2; 
+  background-color: $coloreSfondoMenu; 
+  cursor: pointer;
+  @if $color-active == $color-bg {
+    color: $color-bg;
+    background-color: $color-active;
+  }
+}
+
+// stile recensioni e descrizioni -----------------------------------
+
+.recensione {
+  font-size: medium;
+  font-style: italic;
+  font-weight: lighter;
+  color: $coloreTestoBianco;
+  
+}
+
+.descrizione {
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: $coloreTestoBianco;
+}
+
+
+// disposizione footer ----------------------------------
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer section {
+  display: inline-block;
+  margin: 20px;
+  }
+
+footer form {
+  margin: auto;
+}
+
+// stile form ----------------------------------------------------
+.form-stile {
+  width: 500px; 
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: $color-bg; 
+  border: 2px solid $coloreHover;
+  border-radius: 10px; 
+}
+
+// etichette form
+.form-stile label {
+  display: block; 
+  color: $coloreHover; 
+  margin-bottom: 10px 
+  
+}
+
+// input form
+.form-stile input[type=text], .form-stile input[type=email], .form-stile input[type=password] {
+  display: block; 
+  width: 95%; 
+  padding: 10px; 
+  border: 2px solid $coloreSfondoMenu; 
+  border-radius: 5px; 
+  margin-bottom: 20px; 
+}
+
+// aree di testo form
+.form-stile textarea {
+  display: block; 
+  width: 95%; 
+  height: 100px; 
+  padding: 10px; 
+  border: 2px solid $coloreSfondoMenu; 
+  border-radius: 5px; 
+  margin-bottom: 20px; 
+}
+
+// pulsanti form
+.form-stile button {
+  display: block; 
+  width: 100%; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px; 
+  background-color: $coloreSfondoMenu;
+  color: $coloreHover;
+  font-weight: bold; 
+  cursor: pointer; 
+}
+
+.form-stile button:hover, .form-stile button:active {
+  background-color: $color-active; 
+}
+
+
+// stile sezione dopo il form ---------------------------------------------------
+
+ // titolo contatti
+  h4 {
+    color: $color-visited;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+
+  // indirizzo
+  address {
+    color: $coloreSfondoMenu;
+    font-style: normal;
+    margin: 0.5rem;
+  }
+
+  // lista dei contatti
+  ul {
+    list-style: none;
+    padding: 0;
+
+    // elementi della lista
+    li {
+      margin: 0.25rem;
+    }
+  }
+
+  // paragrafi
+  p {
+    color: $color-visited;
+    font-size: 1rem;
+  }
+
+  // menu di navigazione in fondo
+  nav {
+    background-color: $color-active;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+    // lista dei link
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      // elementi della lista dei link
+      li {
+        flex: 1 0 15%;
+      }
+    }
+
+    // link utili
+    .linkUtili {
+      color: $color-visited;
+      display: block;
+      font-size: 0.75rem;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+
+  // link della privacy
+  .linkUtili {
+    color: $color-visited;
+    display: block;
+    font-size: 0.75rem;
+    margin: 0.5rem;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+
+    h6 {
+      color: inherit;
+      font-size: inherit;
+      margin: 0;
+    }
+  }

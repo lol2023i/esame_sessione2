@@ -1,0 +1,42 @@
+[
+    {
+      "sottotitolo": "Ecco un'anteprima dei miei lavori",
+      "lavori": [
+        {
+          "nome": "Progetto 1",
+          "immagine": "/media/fotoProgetto1.jpeg",
+          "descrizione": "Descrizione del progetto 1"
+        },
+        {
+          "nome": "Progetto 2",
+          "immagine": "/media/fotoProgetto2.jpeg",
+          "descrizione": "Descrizione del progetto 2"
+        }
+      ],
+      "recensioni": [
+        {
+          "cliente": "Cliente 1",
+          "foto": "/media/fotoCliente1.jpeg",
+          "testo": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa."
+        },
+        {
+          "cliente": "Cliente 2",
+          "foto": "/media/fotoCliente2.jpeg",
+          "testo": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa."
+        }
+      ],
+      "contatti": {
+        "email": "esempio@esempio.com",
+        "telefono": "3333333333"
+      },
+      "link_utili": [
+        { "testo": "Homepage", "url": "homepage.php" },
+        { "testo": "Chi sono", "url": "paginaChiSono.php" },
+        { "testo": "Servizi offerti", "url": "paginaServiziOfferti.php" },
+        { "testo": "Progetti realizzati", "url": "paginaElencoLavori.php" },
+        { "testo": "Progetto di maggior successo", "url": "paginaDedicataLavoro.php" },
+        { "testo": "Mandami una richiesta", "url": "paginaContatti.php" }
+      ]
+    }
+  ]
+  

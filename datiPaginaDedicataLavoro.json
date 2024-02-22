@@ -1,0 +1,51 @@
+[
+    {
+      
+      "introduzione": {
+        "titolo": "Dai un'occhiata al mio progetto più innovativo",
+        "immagini": [
+          {
+            "src": "/media/fotoProgettoInStatoSviluppo.jpeg",
+            "alt": "foto del progetto in stato di sviluppo",
+            "titolo": "Progetto innovativo stato di sviluppo",
+            "data": "01/05/2023"
+          },
+          {
+            "src": "/media/progettoInStatoFinale.jpeg",
+            "alt": "foto del progetto finalizzato",
+            "titolo": "Progetto innovativo finalizzato",
+            "data": "01/01/2024"
+          }
+        ]
+      },
+      "specifiche": {
+        "titolo": "Specifiche e funzionalità del progetto",
+        "elenco_specifiche": [
+          "Specifica tecnica 1: ipsum dolor sit amet consectetur adipisicing elit. Rerum quisqurit sit;",
+          "Specifica tecnica 2: ipsum dolor sit amet consectetur adipisicing elit. Rerum quisqurit sit;",
+          "Specifica tecnica 3: ipsum dolor sit amet consectetur adipisicing elit. Rerum quisqurit sit;",
+          "Specifica tecnica 4: ipsum dolor sit amet consectetur adipisicing elit. Rerum quisqurit sit;",
+          "Specifica tecnica 5: ipsum dolor sit amet consectetur adipisicing elit. Rerum quisqurit sit;"
+        ]
+      },
+      
+      "video_intervista": {
+        "titolo": "Guarda il video dell'intervista sul mio progetto",
+        "src": "/media/videoIntervista.mp4"
+      },
+      
+      "contatti": {
+        "email": "esempio@esempio.com",
+        "telefono": "3333333333"
+      },
+      "link_utili": [
+        { "testo": "Homepage", "url": "homepage.php" },
+        { "testo": "Chi sono", "url": "paginaChiSono.php" },
+        { "testo": "Servizi offerti", "url": "paginaServiziOfferti.php" },
+        { "testo": "Progetti realizzati", "url": "paginaElencoLavori.php" },
+        { "testo": "Progetto di maggior successo", "url": "paginaDedicataLavoro.php" },
+        { "testo": "Mandami una richiesta", "url": "paginaContatti.php" }
+      ]
+    }
+  ]
+  

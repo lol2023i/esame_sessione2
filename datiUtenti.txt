@@ -1,0 +1,7 @@
+Nome: Lorenzo
+Cognome: Di Lucca
+E-mail: prova1@gmail.com
+Richiesta principale: richiesta-3
+Messaggio: Questa è una prova
+
+
